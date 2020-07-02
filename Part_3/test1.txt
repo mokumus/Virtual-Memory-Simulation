@@ -1,0 +1,4432 @@
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with NRU PR and global AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25190900
+# Writes: 8424100
+# Misses: 44231
+# Replacements: 44167
+# DPW: 15629
+# DPR: 28602
+Sort success: yes 
+Took 43.826532 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 31174
+# Replacements: 30854
+# DPW: 11163
+# DPR: 20011
+Sort success: yes 
+Took 39.211106 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 38142
+# Replacements: 37818
+# DPW: 16306
+# DPR: 21836
+Sort success: yes 
+Took 36.593944 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 27404
+# Replacements: 27088
+# DPW: 9497
+# DPR: 17907
+Sort success: yes 
+Took 41.256912 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 12295
+# Replacements: 12295
+# DPW: 0
+# DPR: 12295
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 24968864
+# Writes: 8226194
+# Misses: 70419
+# Replacements: 70387
+# DPW: 24143
+# DPR: 46276
+Sort success: yes 
+Took 38.703610 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 24378
+# Replacements: 24202
+# DPW: 9858
+# DPR: 14520
+Sort success: yes 
+Took 34.663978 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 39111
+# Replacements: 38951
+# DPW: 17966
+# DPR: 21145
+Sort success: yes 
+Took 32.102338 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15366
+# Replacements: 15222
+# DPW: 5649
+# DPR: 9717
+Sort success: yes 
+Took 36.438325 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6148
+# Replacements: 6148
+# DPW: 0
+# DPR: 6148
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25092742
+# Writes: 8322702
+# Misses: 56491
+# Replacements: 56475
+# DPW: 18564
+# DPR: 37927
+Sort success: yes 
+Took 35.010378 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 17725
+# Replacements: 17640
+# DPW: 8193
+# DPR: 9532
+Sort success: yes 
+Took 32.260952 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 35597
+# Replacements: 35518
+# DPW: 18159
+# DPR: 17438
+Sort success: yes 
+Took 29.111359 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 9844
+# Replacements: 9768
+# DPW: 4009
+# DPR: 5835
+Sort success: yes 
+Took 32.924270 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3074
+# Replacements: 3074
+# DPW: 0
+# DPR: 3074
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25208876
+# Writes: 8437088
+# Misses: 53482
+# Replacements: 53474
+# DPW: 17211
+# DPR: 36271
+Sort success: yes 
+Took 33.083978 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15659
+# Replacements: 15614
+# DPW: 6831
+# DPR: 8828
+Sort success: yes 
+Took 30.071854 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 36191
+# Replacements: 36153
+# DPW: 18380
+# DPR: 17811
+Sort success: yes 
+Took 26.982008 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7275
+# Replacements: 7238
+# DPW: 2706
+# DPR: 4569
+Sort success: yes 
+Took 31.107926 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1537
+# Replacements: 1537
+# DPW: 0
+# DPR: 1537
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25306638
+# Writes: 8535774
+# Misses: 54760
+# Replacements: 54756
+# DPW: 17168
+# DPR: 37592
+Sort success: yes 
+Took 32.676832 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15365
+# Replacements: 15342
+# DPW: 8542
+# DPR: 6823
+Sort success: yes 
+Took 30.043193 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 40556
+# Replacements: 40537
+# DPW: 21220
+# DPR: 19336
+Sort success: yes 
+Took 26.936768 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6866
+# Replacements: 6848
+# DPW: 4106
+# DPR: 2760
+Sort success: yes 
+Took 30.629509 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25122316
+# Writes: 8349658
+# Misses: 45288
+# Replacements: 45286
+# DPW: 13892
+# DPR: 31396
+Sort success: yes 
+Took 33.484736 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 21406
+# Replacements: 21397
+# DPW: 11019
+# DPR: 10387
+Sort success: yes 
+Took 30.911341 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 32706
+# Replacements: 32695
+# DPW: 17129
+# DPR: 15577
+Sort success: yes 
+Took 29.468882 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 8527
+# Replacements: 8517
+# DPW: 4566
+# DPR: 3961
+Sort success: yes 
+Took 31.322390 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25351110
+# Writes: 8580746
+# Misses: 49072
+# Replacements: 49071
+# DPW: 15108
+# DPR: 33964
+Sort success: yes 
+Took 32.899733 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 16272
+# Replacements: 16267
+# DPW: 9522
+# DPR: 6750
+Sort success: yes 
+Took 30.267011 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 39862
+# Replacements: 39857
+# DPW: 20444
+# DPR: 19418
+Sort success: yes 
+Took 27.285641 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6553
+# Replacements: 6548
+# DPW: 3835
+# DPR: 2718
+Sort success: yes 
+Took 30.843235 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25141892
+# Writes: 8374934
+# Misses: 52044
+# Replacements: 52043
+# DPW: 15876
+# DPR: 36168
+Sort success: yes 
+Took 31.958595 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 21037
+# Replacements: 21034
+# DPW: 10471
+# DPR: 10566
+Sort success: yes 
+Took 29.346584 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 41019
+# Replacements: 41017
+# DPW: 21118
+# DPR: 19901
+Sort success: yes 
+Took 26.329808 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5336
+# Replacements: 5334
+# DPW: 3146
+# DPR: 2190
+Sort success: yes 
+Took 29.948262 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25140708
+# Writes: 8367744
+# Misses: 74811
+# Replacements: 74810
+# DPW: 22720
+# DPR: 52091
+Sort success: yes 
+Took 31.824887 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 27063
+# Replacements: 27062
+# DPW: 13547
+# DPR: 13516
+Sort success: yes 
+Took 28.896972 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 54393
+# Replacements: 54392
+# DPW: 27558
+# DPR: 26835
+Sort success: yes 
+Took 23.067993 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7045
+# Replacements: 7044
+# DPW: 3147
+# DPR: 3898
+Sort success: yes 
+Took 30.108431 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with NRU PR and local AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 26441196
+# Writes: 9823706
+# Misses: 404581
+# Replacements: 404580
+# DPW: 138813
+# DPR: 265768
+Sort success: no 
+Took 91.619758 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 102400
+# Replacements: 102399
+# DPW: 49152
+# DPR: 53248
+Sort success: no 
+Took 49.456704 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 91364
+# Replacements: 91364
+# DPW: 43520
+# DPR: 47844
+Sort success: no 
+Took 53.537755 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 79872
+# Replacements: 79872
+# DPW: 38912
+# DPR: 40960
+Sort success: no 
+Took 56.358636 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1664
+# Writes: 0
+# Misses: 15
+# Replacements: 15
+# DPW: 0
+# DPR: 15
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25115534
+# Writes: 8342470
+# Misses: 32
+# Replacements: 0
+# DPW: 0
+# DPR: 32
+Sort success: yes 
+Took 34.873488 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 14739
+# Replacements: 14581
+# DPW: 6308
+# DPR: 8431
+Sort success: yes 
+Took 30.517961 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 14117
+# Replacements: 13945
+# DPW: 5798
+# DPR: 8319
+Sort success: yes 
+Took 31.369844 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 14956
+# Replacements: 14806
+# DPW: 6553
+# DPR: 8403
+Sort success: yes 
+Took 32.409383 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6144
+# Replacements: 6144
+# DPW: 0
+# DPR: 6144
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 24881764
+# Writes: 8124144
+# Misses: 16
+# Replacements: 0
+# DPW: 0
+# DPR: 16
+Sort success: yes 
+Took 34.935715 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7300
+# Replacements: 7221
+# DPW: 3160
+# DPR: 4140
+Sort success: yes 
+Took 32.397336 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7423
+# Replacements: 7346
+# DPW: 3212
+# DPR: 4211
+Sort success: yes 
+Took 32.003350 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7053
+# Replacements: 6969
+# DPW: 2851
+# DPR: 4202
+Sort success: yes 
+Took 32.558565 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3072
+# Replacements: 3072
+# DPW: 0
+# DPR: 3072
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25218764
+# Writes: 8448506
+# Misses: 8
+# Replacements: 0
+# DPW: 0
+# DPR: 8
+Sort success: yes 
+Took 35.022812 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3740
+# Replacements: 3705
+# DPW: 1603
+# DPR: 2137
+Sort success: yes 
+Took 32.548662 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3573
+# Replacements: 3531
+# DPW: 1474
+# DPR: 2099
+Sort success: yes 
+Took 32.492561 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3604
+# Replacements: 3561
+# DPW: 1539
+# DPR: 2065
+Sort success: yes 
+Took 31.618605 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1536
+# Replacements: 1536
+# DPW: 0
+# DPR: 1536
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25040872
+# Writes: 8292558
+# Misses: 4
+# Replacements: 0
+# DPW: 0
+# DPR: 4
+Sort success: yes 
+Took 35.299151 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1783
+# Replacements: 1761
+# DPW: 730
+# DPR: 1053
+Sort success: yes 
+Took 32.192805 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1868
+# Replacements: 1849
+# DPW: 790
+# DPR: 1078
+Sort success: yes 
+Took 32.806467 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1826
+# Replacements: 1807
+# DPW: 766
+# DPR: 1060
+Sort success: yes 
+Took 32.897174 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25076872
+# Writes: 8324344
+# Misses: 2
+# Replacements: 0
+# DPW: 0
+# DPR: 2
+Sort success: yes 
+Took 36.095785 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 940
+# Replacements: 931
+# DPW: 420
+# DPR: 520
+Sort success: yes 
+Took 33.414529 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 915
+# Replacements: 904
+# DPW: 398
+# DPR: 517
+Sort success: yes 
+Took 33.814382 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 925
+# Replacements: 915
+# DPW: 395
+# DPR: 530
+Sort success: yes 
+Took 33.457814 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25091910
+# Writes: 8320860
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 36.073825 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 472
+# Replacements: 467
+# DPW: 202
+# DPR: 270
+Sort success: yes 
+Took 33.736597 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 477
+# Replacements: 472
+# DPW: 212
+# DPR: 265
+Sort success: yes 
+Took 33.182812 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 468
+# Replacements: 463
+# DPW: 204
+# DPR: 264
+Sort success: yes 
+Took 33.643106 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25043178
+# Writes: 8271248
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.830979 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 262
+# Replacements: 260
+# DPW: 115
+# DPR: 147
+Sort success: yes 
+Took 33.086889 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 232
+# Replacements: 229
+# DPW: 100
+# DPR: 132
+Sort success: yes 
+Took 33.123065 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 262
+# Replacements: 260
+# DPW: 114
+# DPR: 148
+Sort success: yes 
+Took 33.417440 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25164942
+# Writes: 8393012
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 36.131492 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.715168 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.739745 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.465557 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with FIFO PR and global AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 26015466
+# Writes: 9267152
+# Misses: 60
+# Replacements: 59
+# DPW: 0
+# DPR: 60
+Sort success: no 
+Took 33.217175 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 61076
+# Replacements: 61075
+# DPW: 27401
+# DPR: 33675
+Sort success: no 
+Took 28.309905 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 36845
+# Replacements: 36845
+# DPW: 15508
+# DPR: 21337
+Sort success: no 
+Took 30.490924 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 75823
+# Replacements: 75823
+# DPW: 34924
+# DPR: 40899
+Sort success: no 
+Took 24.009516 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 10344
+# Writes: 0
+# Misses: 16
+# Replacements: 16
+# DPW: 0
+# DPR: 16
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25121500
+# Writes: 8350360
+# Misses: 32
+# Replacements: 0
+# DPW: 0
+# DPR: 32
+Sort success: yes 
+Took 30.196628 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 47430
+# Replacements: 47256
+# DPW: 22487
+# DPR: 24943
+Sort success: yes 
+Took 25.814991 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 23007
+# Replacements: 22851
+# DPW: 9891
+# DPR: 13116
+Sort success: yes 
+Took 27.633978 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 48620
+# Replacements: 48470
+# DPW: 22771
+# DPR: 25849
+Sort success: yes 
+Took 25.096833 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 5756
+# Replacements: 5756
+# DPW: 0
+# DPR: 5756
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25209960
+# Writes: 8438646
+# Misses: 32
+# Replacements: 16
+# DPW: 1
+# DPR: 31
+Sort success: yes 
+Took 31.330413 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 22399
+# Replacements: 22313
+# DPW: 10300
+# DPR: 12099
+Sort success: yes 
+Took 28.094755 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 12031
+# Replacements: 11953
+# DPW: 4991
+# DPR: 7040
+Sort success: yes 
+Took 28.944539 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 22963
+# Replacements: 22887
+# DPW: 10701
+# DPR: 12262
+Sort success: yes 
+Took 27.468957 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3020
+# Replacements: 3020
+# DPW: 0
+# DPR: 3020
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25156026
+# Writes: 8383412
+# Misses: 16
+# Replacements: 8
+# DPW: 0
+# DPR: 16
+Sort success: yes 
+Took 32.521578 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15698
+# Replacements: 15659
+# DPW: 7159
+# DPR: 8539
+Sort success: yes 
+Took 29.620372 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5606
+# Replacements: 5565
+# DPW: 2287
+# DPR: 3319
+Sort success: yes 
+Took 30.157030 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15931
+# Replacements: 15891
+# DPW: 7369
+# DPR: 8562
+Sort success: yes 
+Took 29.578956 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1456
+# Replacements: 1456
+# DPW: 0
+# DPR: 1456
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25237504
+# Writes: 8477494
+# Misses: 32
+# Replacements: 28
+# DPW: 3
+# DPR: 29
+Sort success: yes 
+Took 33.175099 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 9916
+# Replacements: 9897
+# DPW: 4939
+# DPR: 4977
+Sort success: yes 
+Took 30.821005 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2723
+# Replacements: 2703
+# DPW: 1125
+# DPR: 1598
+Sort success: yes 
+Took 30.752429 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 9877
+# Replacements: 9856
+# DPW: 4878
+# DPR: 4999
+Sort success: yes 
+Took 30.340366 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25382494
+# Writes: 8614486
+# Misses: 4
+# Replacements: 2
+# DPW: 0
+# DPR: 4
+Sort success: yes 
+Took 33.009858 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10339
+# Replacements: 10329
+# DPW: 5647
+# DPR: 4692
+Sort success: yes 
+Took 30.103646 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1204
+# Replacements: 1194
+# DPW: 493
+# DPR: 711
+Sort success: yes 
+Took 30.695938 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10450
+# Replacements: 10440
+# DPW: 5726
+# DPR: 4724
+Sort success: yes 
+Took 30.214750 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 379
+# Replacements: 379
+# DPW: 0
+# DPR: 379
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25174184
+# Writes: 8419696
+# Misses: 3
+# Replacements: 2
+# DPW: 0
+# DPR: 3
+Sort success: yes 
+Took 33.050378 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 13522
+# Replacements: 13517
+# DPW: 7354
+# DPR: 6168
+Sort success: yes 
+Took 30.475156 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 8346
+# Replacements: 8341
+# DPW: 4186
+# DPR: 4160
+Sort success: yes 
+Took 30.763486 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 13580
+# Replacements: 13575
+# DPW: 6989
+# DPR: 6591
+Sort success: yes 
+Took 30.137352 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25040634
+# Writes: 8288684
+# Misses: 6
+# Replacements: 5
+# DPW: 1
+# DPR: 5
+Sort success: yes 
+Took 31.026641 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 24962
+# Replacements: 24959
+# DPW: 12171
+# DPR: 12791
+Sort success: yes 
+Took 27.684944 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 4640
+# Replacements: 4638
+# DPW: 2399
+# DPR: 2241
+Sort success: yes 
+Took 28.678945 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 24953
+# Replacements: 24951
+# DPW: 12187
+# DPR: 12766
+Sort success: yes 
+Took 27.503852 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25145912
+# Writes: 8376824
+# Misses: 20
+# Replacements: 19
+# DPW: 10
+# DPR: 10
+Sort success: yes 
+Took 31.170855 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 25320
+# Replacements: 25319
+# DPW: 11629
+# DPR: 13691
+Sort success: yes 
+Took 28.229229 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 21096
+# Replacements: 21095
+# DPW: 10539
+# DPR: 10557
+Sort success: yes 
+Took 28.762733 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 26243
+# Replacements: 26242
+# DPW: 12710
+# DPR: 13533
+Sort success: yes 
+Took 28.535893 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with FIFO PR and local AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25638296
+# Writes: 9546626
+# Misses: 155528
+# Replacements: 155527
+# DPW: 15810
+# DPR: 139718
+Sort success: no 
+Took 42.204052 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 103165
+# Replacements: 103165
+# DPW: 49526
+# DPR: 53639
+Sort success: no 
+Took 30.336471 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 101239
+# Replacements: 101238
+# DPW: 48606
+# DPR: 52633
+Sort success: no 
+Took 32.813382 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 103161
+# Replacements: 103161
+# DPW: 49529
+# DPR: 53632
+Sort success: no 
+Took 31.510857 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 4736
+# Writes: 0
+# Misses: 37
+# Replacements: 37
+# DPW: 0
+# DPR: 37
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25248818
+# Writes: 8488130
+# Misses: 32
+# Replacements: 0
+# DPW: 0
+# DPR: 32
+Sort success: yes 
+Took 31.980635 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 33579
+# Replacements: 33401
+# DPW: 15625
+# DPR: 17954
+Sort success: yes 
+Took 27.132261 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 25213
+# Replacements: 25052
+# DPW: 11430
+# DPR: 13783
+Sort success: yes 
+Took 29.201833 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 28953
+# Replacements: 28812
+# DPW: 13394
+# DPR: 15559
+Sort success: yes 
+Took 28.286463 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6144
+# Replacements: 6144
+# DPW: 0
+# DPR: 6144
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25201904
+# Writes: 8431334
+# Misses: 16
+# Replacements: 0
+# DPW: 0
+# DPR: 16
+Sort success: yes 
+Took 32.938254 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 15054
+# Replacements: 14974
+# DPW: 6975
+# DPR: 8079
+Sort success: yes 
+Took 30.378329 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 18054
+# Replacements: 17974
+# DPW: 8499
+# DPR: 9555
+Sort success: yes 
+Took 29.392412 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 13615
+# Replacements: 13535
+# DPW: 6297
+# DPR: 7318
+Sort success: yes 
+Took 30.357938 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3026
+# Replacements: 3026
+# DPW: 0
+# DPR: 3026
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25171932
+# Writes: 8413574
+# Misses: 8
+# Replacements: 0
+# DPW: 0
+# DPR: 8
+Sort success: yes 
+Took 34.215124 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 8126
+# Replacements: 8086
+# DPW: 3797
+# DPR: 4329
+Sort success: yes 
+Took 30.894921 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6483
+# Replacements: 6442
+# DPW: 2950
+# DPR: 3533
+Sort success: yes 
+Took 31.227757 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6594
+# Replacements: 6555
+# DPW: 3040
+# DPR: 3554
+Sort success: yes 
+Took 31.812448 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1514
+# Replacements: 1514
+# DPW: 0
+# DPR: 1514
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25209374
+# Writes: 8441084
+# Misses: 4
+# Replacements: 0
+# DPW: 0
+# DPR: 4
+Sort success: yes 
+Took 35.459213 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3387
+# Replacements: 3367
+# DPW: 1566
+# DPR: 1821
+Sort success: yes 
+Took 32.984542 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3027
+# Replacements: 3009
+# DPW: 1385
+# DPR: 1642
+Sort success: yes 
+Took 32.334297 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3168
+# Replacements: 3146
+# DPW: 1454
+# DPR: 1714
+Sort success: yes 
+Took 32.628403 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 755
+# Replacements: 755
+# DPW: 0
+# DPR: 755
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25140768
+# Writes: 8370618
+# Misses: 2
+# Replacements: 0
+# DPW: 0
+# DPR: 2
+Sort success: yes 
+Took 35.325776 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1369
+# Replacements: 1357
+# DPW: 620
+# DPR: 749
+Sort success: yes 
+Took 32.337170 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1374
+# Replacements: 1365
+# DPW: 618
+# DPR: 756
+Sort success: yes 
+Took 32.872209 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1544
+# Replacements: 1535
+# DPW: 703
+# DPR: 841
+Sort success: yes 
+Took 32.822986 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25153556
+# Writes: 8394242
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.746082 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 692
+# Replacements: 688
+# DPW: 317
+# DPR: 375
+Sort success: yes 
+Took 33.322798 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 639
+# Replacements: 633
+# DPW: 288
+# DPR: 351
+Sort success: yes 
+Took 33.227423 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 652
+# Replacements: 647
+# DPW: 294
+# DPR: 358
+Sort success: yes 
+Took 32.607530 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25122752
+# Writes: 8355952
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.487595 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 326
+# Replacements: 323
+# DPW: 147
+# DPR: 179
+Sort success: yes 
+Took 33.079028 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 304
+# Replacements: 302
+# DPW: 136
+# DPR: 168
+Sort success: yes 
+Took 31.859805 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 295
+# Replacements: 293
+# DPW: 132
+# DPR: 163
+Sort success: yes 
+Took 32.598238 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25161558
+# Writes: 8406798
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.781675 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.236231 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.430778 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.295314 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with SC PR and global AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 27654994
+# Writes: 10945630
+# Misses: 724
+# Replacements: 723
+# DPW: 3
+# DPR: 721
+Sort success: no 
+Took 34.366070 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 39687
+# Replacements: 39687
+# DPW: 16317
+# DPR: 23370
+Sort success: no 
+Took 30.056775 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 36412
+# Replacements: 36412
+# DPW: 14291
+# DPR: 22121
+Sort success: no 
+Took 31.386479 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 46590
+# Replacements: 46589
+# DPW: 19661
+# DPR: 26929
+Sort success: no 
+Took 27.983359 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1010
+# Writes: 0
+# Misses: 3
+# Replacements: 3
+# DPW: 0
+# DPR: 3
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25009866
+# Writes: 8242002
+# Misses: 830
+# Replacements: 798
+# DPW: 0
+# DPR: 830
+Sort success: yes 
+Took 32.220982 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 18950
+# Replacements: 18790
+# DPW: 8020
+# DPR: 10930
+Sort success: yes 
+Took 29.421091 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 17392
+# Replacements: 17240
+# DPW: 7460
+# DPR: 9932
+Sort success: yes 
+Took 29.849326 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 20744
+# Replacements: 20576
+# DPW: 8640
+# DPR: 12104
+Sort success: yes 
+Took 27.750477 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6147
+# Replacements: 6147
+# DPW: 0
+# DPR: 6147
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25113226
+# Writes: 8340162
+# Misses: 191
+# Replacements: 175
+# DPW: 0
+# DPR: 191
+Sort success: yes 
+Took 32.865621 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10624
+# Replacements: 10536
+# DPW: 4450
+# DPR: 6174
+Sort success: yes 
+Took 30.499054 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 9881
+# Replacements: 9809
+# DPW: 4057
+# DPR: 5824
+Sort success: yes 
+Took 30.408323 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10216
+# Replacements: 10136
+# DPW: 4257
+# DPR: 5959
+Sort success: yes 
+Took 29.939637 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3073
+# Replacements: 3073
+# DPW: 0
+# DPR: 3073
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25046182
+# Writes: 8279542
+# Misses: 222
+# Replacements: 214
+# DPW: 0
+# DPR: 222
+Sort success: yes 
+Took 33.466940 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5093
+# Replacements: 5053
+# DPW: 2035
+# DPR: 3058
+Sort success: yes 
+Took 31.161551 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3972
+# Replacements: 3932
+# DPW: 1656
+# DPR: 2316
+Sort success: yes 
+Took 30.739401 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5135
+# Replacements: 5095
+# DPW: 2186
+# DPR: 2949
+Sort success: yes 
+Took 30.949678 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1536
+# Replacements: 1536
+# DPW: 0
+# DPR: 1536
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25081008
+# Writes: 8309528
+# Misses: 91
+# Replacements: 87
+# DPW: 0
+# DPR: 91
+Sort success: yes 
+Took 33.979645 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2365
+# Replacements: 2347
+# DPW: 987
+# DPR: 1378
+Sort success: yes 
+Took 31.653944 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2400
+# Replacements: 2380
+# DPW: 1012
+# DPR: 1388
+Sort success: yes 
+Took 31.651674 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2372
+# Replacements: 2350
+# DPW: 999
+# DPR: 1373
+Sort success: yes 
+Took 31.613026 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25046572
+# Writes: 8277484
+# Misses: 26
+# Replacements: 24
+# DPW: 0
+# DPR: 26
+Sort success: yes 
+Took 34.214027 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1230
+# Replacements: 1220
+# DPW: 510
+# DPR: 720
+Sort success: yes 
+Took 32.019128 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1060
+# Replacements: 1050
+# DPW: 465
+# DPR: 595
+Sort success: yes 
+Took 32.008859 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1234
+# Replacements: 1224
+# DPW: 517
+# DPR: 717
+Sort success: yes 
+Took 31.149408 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25252834
+# Writes: 8507104
+# Misses: 10
+# Replacements: 9
+# DPW: 3
+# DPR: 7
+Sort success: yes 
+Took 34.361264 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 540
+# Replacements: 535
+# DPW: 219
+# DPR: 321
+Sort success: yes 
+Took 31.693814 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 539
+# Replacements: 533
+# DPW: 221
+# DPR: 318
+Sort success: yes 
+Took 31.876059 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 534
+# Replacements: 530
+# DPW: 213
+# DPR: 321
+Sort success: yes 
+Took 32.124393 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25161164
+# Writes: 8389450
+# Misses: 35
+# Replacements: 34
+# DPW: 8
+# DPR: 27
+Sort success: yes 
+Took 34.190464 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 263
+# Replacements: 261
+# DPW: 101
+# DPR: 162
+Sort success: yes 
+Took 31.948525 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 275
+# Replacements: 273
+# DPW: 107
+# DPR: 168
+Sort success: yes 
+Took 31.239224 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 268
+# Replacements: 265
+# DPW: 107
+# DPR: 161
+Sort success: yes 
+Took 31.608351 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 24989244
+# Writes: 8217246
+# Misses: 376
+# Replacements: 375
+# DPW: 114
+# DPR: 262
+Sort success: yes 
+Took 35.077007 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 187
+# Replacements: 186
+# DPW: 88
+# DPR: 99
+Sort success: yes 
+Took 31.761341 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 267
+# Replacements: 266
+# DPW: 131
+# DPR: 136
+Sort success: yes 
+Took 32.942829 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 146
+# Replacements: 145
+# DPW: 64
+# DPR: 82
+Sort success: yes 
+Took 32.612026 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with SC PR and local AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 32907078
+# Writes: 16142330
+# Misses: 133115
+# Replacements: 133114
+# DPW: 118
+# DPR: 132997
+Sort success: no 
+Took 42.120408 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 102400
+# Replacements: 102399
+# DPW: 49152
+# DPR: 53248
+Sort success: no 
+Took 31.029756 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 92673
+# Replacements: 92673
+# DPW: 44544
+# DPR: 48129
+Sort success: no 
+Took 32.381712 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 102399
+# Replacements: 102399
+# DPW: 49152
+# DPR: 53247
+Sort success: no 
+Took 29.771565 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 394
+# Writes: 0
+# Misses: 3
+# Replacements: 3
+# DPW: 0
+# DPR: 3
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 24946922
+# Writes: 8183114
+# Misses: 32
+# Replacements: 0
+# DPW: 0
+# DPR: 32
+Sort success: yes 
+Took 33.275726 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 23090
+# Replacements: 22939
+# DPW: 10538
+# DPR: 12552
+Sort success: yes 
+Took 30.663009 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 22051
+# Replacements: 21914
+# DPW: 9961
+# DPR: 12090
+Sort success: yes 
+Took 30.134811 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 23343
+# Replacements: 23151
+# DPW: 10705
+# DPR: 12638
+Sort success: yes 
+Took 29.757312 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6144
+# Replacements: 6144
+# DPW: 0
+# DPR: 6144
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25270408
+# Writes: 8509944
+# Misses: 16
+# Replacements: 0
+# DPW: 0
+# DPR: 16
+Sort success: yes 
+Took 33.799491 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10495
+# Replacements: 10415
+# DPW: 4689
+# DPR: 5806
+Sort success: yes 
+Took 30.771186 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 11126
+# Replacements: 11058
+# DPW: 5024
+# DPR: 6102
+Sort success: yes 
+Took 31.340549 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 10872
+# Replacements: 10780
+# DPW: 4944
+# DPR: 5928
+Sort success: yes 
+Took 30.102416 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3072
+# Replacements: 3072
+# DPW: 0
+# DPR: 3072
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25196052
+# Writes: 8435364
+# Misses: 8
+# Replacements: 0
+# DPW: 0
+# DPR: 8
+Sort success: yes 
+Took 34.701688 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 4705
+# Replacements: 4669
+# DPW: 2061
+# DPR: 2644
+Sort success: yes 
+Took 31.345988 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 4940
+# Replacements: 4897
+# DPW: 2188
+# DPR: 2752
+Sort success: yes 
+Took 32.269738 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5024
+# Replacements: 4983
+# DPW: 2231
+# DPR: 2793
+Sort success: yes 
+Took 32.208985 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1536
+# Replacements: 1536
+# DPW: 0
+# DPR: 1536
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25314264
+# Writes: 8551856
+# Misses: 4
+# Replacements: 0
+# DPW: 0
+# DPR: 4
+Sort success: yes 
+Took 35.501151 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2426
+# Replacements: 2407
+# DPW: 1077
+# DPR: 1349
+Sort success: yes 
+Took 32.760689 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2338
+# Replacements: 2319
+# DPW: 1033
+# DPR: 1305
+Sort success: yes 
+Took 33.081864 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2350
+# Replacements: 2328
+# DPW: 1031
+# DPR: 1319
+Sort success: yes 
+Took 33.116802 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25018112
+# Writes: 8263624
+# Misses: 2
+# Replacements: 0
+# DPW: 0
+# DPR: 2
+Sort success: yes 
+Took 34.975808 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1155
+# Replacements: 1145
+# DPW: 512
+# DPR: 643
+Sort success: yes 
+Took 32.638401 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1168
+# Replacements: 1158
+# DPW: 512
+# DPR: 656
+Sort success: yes 
+Took 31.240381 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1154
+# Replacements: 1144
+# DPW: 512
+# DPR: 642
+Sort success: yes 
+Took 32.576720 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25231584
+# Writes: 8460816
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.969668 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 572
+# Replacements: 567
+# DPW: 256
+# DPR: 316
+Sort success: yes 
+Took 33.510317 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 574
+# Replacements: 569
+# DPW: 256
+# DPR: 318
+Sort success: yes 
+Took 33.217218 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 572
+# Replacements: 567
+# DPW: 256
+# DPR: 316
+Sort success: yes 
+Took 33.328178 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25048716
+# Writes: 8280566
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.427108 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 288
+# Replacements: 286
+# DPW: 128
+# DPR: 160
+Sort success: yes 
+Took 32.681755 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 288
+# Replacements: 286
+# DPW: 128
+# DPR: 160
+Sort success: yes 
+Took 33.072716 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 272
+# Replacements: 269
+# DPW: 128
+# DPR: 144
+Sort success: yes 
+Took 32.576240 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25234806
+# Writes: 8461796
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.643781 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 32.880403 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.258969 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 33.236594 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with LRU PR and global AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25855542
+# Writes: 9268614
+# Misses: 295
+# Replacements: 294
+# DPW: 0
+# DPR: 295
+Sort success: no 
+Took 32.849990 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 51707
+# Replacements: 51707
+# DPW: 22898
+# DPR: 28809
+Sort success: no 
+Took 28.276377 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 30022
+# Replacements: 30021
+# DPW: 12146
+# DPR: 17876
+Sort success: no 
+Took 30.164611 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 68117
+# Replacements: 68117
+# DPW: 31614
+# DPR: 36503
+Sort success: no 
+Took 25.109106 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 3966
+# Writes: 0
+# Misses: 5
+# Replacements: 5
+# DPW: 0
+# DPR: 5
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25155662
+# Writes: 8388862
+# Misses: 287
+# Replacements: 255
+# DPW: 0
+# DPR: 287
+Sort success: yes 
+Took 31.535281 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 25623
+# Replacements: 25479
+# DPW: 11313
+# DPR: 14310
+Sort success: yes 
+Took 28.432046 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 17480
+# Replacements: 17304
+# DPW: 7393
+# DPR: 10087
+Sort success: yes 
+Took 29.116592 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 29257
+# Replacements: 29097
+# DPW: 12917
+# DPR: 16340
+Sort success: yes 
+Took 26.988510 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6147
+# Replacements: 6147
+# DPW: 0
+# DPR: 6147
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 24964638
+# Writes: 8199174
+# Misses: 239
+# Replacements: 223
+# DPW: 0
+# DPR: 239
+Sort success: yes 
+Took 29.965098 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 31039
+# Replacements: 30962
+# DPW: 14846
+# DPR: 16193
+Sort success: yes 
+Took 26.411560 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 8167
+# Replacements: 8083
+# DPW: 3438
+# DPR: 4729
+Sort success: yes 
+Took 27.618786 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 32090
+# Replacements: 32011
+# DPW: 15515
+# DPR: 16575
+Sort success: yes 
+Took 25.523542 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3073
+# Replacements: 3073
+# DPW: 0
+# DPR: 3073
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25330226
+# Writes: 8561012
+# Misses: 68
+# Replacements: 60
+# DPW: 0
+# DPR: 68
+Sort success: yes 
+Took 32.917386 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5257
+# Replacements: 5219
+# DPW: 2236
+# DPR: 3021
+Sort success: yes 
+Took 29.768287 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 4203
+# Replacements: 4166
+# DPW: 1786
+# DPR: 2417
+Sort success: yes 
+Took 30.557142 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6691
+# Replacements: 6646
+# DPW: 2971
+# DPR: 3720
+Sort success: yes 
+Took 30.558951 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1536
+# Replacements: 1536
+# DPW: 0
+# DPR: 1536
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25114480
+# Writes: 8344116
+# Misses: 6
+# Replacements: 2
+# DPW: 0
+# DPR: 6
+Sort success: yes 
+Took 33.612317 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6697
+# Replacements: 6677
+# DPW: 3133
+# DPR: 3564
+Sort success: yes 
+Took 30.238293 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2177
+# Replacements: 2157
+# DPW: 896
+# DPR: 1281
+Sort success: yes 
+Took 31.389003 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 7194
+# Replacements: 7174
+# DPW: 3126
+# DPR: 4068
+Sort success: yes 
+Took 31.165328 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25279538
+# Writes: 8512580
+# Misses: 3
+# Replacements: 1
+# DPW: 0
+# DPR: 3
+Sort success: yes 
+Took 33.732204 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2551
+# Replacements: 2541
+# DPW: 997
+# DPR: 1554
+Sort success: yes 
+Took 31.156515 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1071
+# Replacements: 1061
+# DPW: 468
+# DPR: 603
+Sort success: yes 
+Took 31.364138 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2631
+# Replacements: 2621
+# DPW: 1254
+# DPR: 1377
+Sort success: yes 
+Took 30.700586 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25122132
+# Writes: 8361444
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 32.014382 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 24474
+# Replacements: 24469
+# DPW: 12257
+# DPR: 12217
+Sort success: yes 
+Took 29.337717 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 522
+# Replacements: 517
+# DPW: 221
+# DPR: 301
+Sort success: yes 
+Took 29.742433 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 24444
+# Replacements: 24439
+# DPW: 11986
+# DPR: 12458
+Sort success: yes 
+Took 28.316420 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25070358
+# Writes: 8304378
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 32.431590 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 11439
+# Replacements: 11437
+# DPW: 5609
+# DPR: 5830
+Sort success: yes 
+Took 29.341137 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 281
+# Replacements: 278
+# DPW: 115
+# DPR: 166
+Sort success: yes 
+Took 30.273209 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 11440
+# Replacements: 11438
+# DPW: 5715
+# DPR: 5725
+Sort success: yes 
+Took 29.510305 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#0 - Bubble Sort stats
+# Reads: 25073018
+# Writes: 8304868
+# Misses: 186
+# Replacements: 185
+# DPW: 61
+# DPR: 125
+Sort success: yes 
+Took 34.048027 seconds to execute 
+===============================
+#0 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 257
+# Replacements: 256
+# DPW: 123
+# DPR: 134
+Sort success: yes 
+Took 31.412846 seconds to execute 
+===============================
+#0 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 302
+# Replacements: 301
+# DPW: 131
+# DPR: 171
+Sort success: yes 
+Took 31.900442 seconds to execute 
+===============================
+#0 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 262
+# Replacements: 261
+# DPW: 131
+# DPR: 131
+Sort success: yes 
+Took 31.293646 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Testing with LRU PR and local AP
+
+**********************TEST 1***************************
+==============================
+Frame size: 0.06KB
+# entries: 17408
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 31999364
+# Writes: 15227434
+# Misses: 134876
+# Replacements: 134875
+# DPW: 1362
+# DPR: 133514
+Sort success: no 
+Took 42.212517 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 102400
+# Replacements: 102399
+# DPW: 49152
+# DPR: 53248
+Sort success: no 
+Took 31.235708 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 92673
+# Replacements: 92673
+# DPW: 44544
+# DPR: 48129
+Sort success: no 
+Took 32.662182 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 102400
+# Replacements: 102400
+# DPW: 49152
+# DPR: 53248
+Sort success: no 
+Took 30.329656 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 518
+# Writes: 0
+# Misses: 3
+# Replacements: 3
+# DPW: 0
+# DPR: 3
+
+**********************TEST 2***************************
+==============================
+Frame size: 0.12KB
+# entries: 8704
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25221014
+# Writes: 8450974
+# Misses: 32
+# Replacements: 0
+# DPW: 0
+# DPR: 32
+Sort success: yes 
+Took 32.065568 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 23029
+# Replacements: 22865
+# DPW: 10592
+# DPR: 12437
+Sort success: yes 
+Took 29.399451 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 30070
+# Replacements: 29898
+# DPW: 14114
+# DPR: 15956
+Sort success: yes 
+Took 27.076065 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 23336
+# Replacements: 23192
+# DPW: 10852
+# DPR: 12484
+Sort success: yes 
+Took 29.387031 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 6144
+# Replacements: 6144
+# DPW: 0
+# DPR: 6144
+
+**********************TEST 3***************************
+==============================
+Frame size: 0.25KB
+# entries: 4352
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25262062
+# Writes: 8503462
+# Misses: 16
+# Replacements: 0
+# DPW: 0
+# DPR: 16
+Sort success: yes 
+Took 33.738294 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 11176
+# Replacements: 11098
+# DPW: 5244
+# DPR: 5932
+Sort success: yes 
+Took 31.297752 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 12684
+# Replacements: 12610
+# DPW: 5936
+# DPR: 6748
+Sort success: yes 
+Took 30.713753 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 12069
+# Replacements: 11981
+# DPW: 5590
+# DPR: 6479
+Sort success: yes 
+Took 30.419827 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 3072
+# Replacements: 3072
+# DPW: 0
+# DPR: 3072
+
+**********************TEST 4***************************
+==============================
+Frame size: 0.50KB
+# entries: 2176
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25221966
+# Writes: 8450036
+# Misses: 8
+# Replacements: 0
+# DPW: 0
+# DPR: 8
+Sort success: yes 
+Took 34.814961 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5784
+# Replacements: 5744
+# DPW: 2702
+# DPR: 3082
+Sort success: yes 
+Took 32.419391 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 5400
+# Replacements: 5360
+# DPW: 2470
+# DPR: 2930
+Sort success: yes 
+Took 31.846418 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 6595
+# Replacements: 6555
+# DPW: 3080
+# DPR: 3515
+Sort success: yes 
+Took 32.255906 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 1536
+# Replacements: 1536
+# DPW: 0
+# DPR: 1536
+
+**********************TEST 5***************************
+==============================
+Frame size: 1.00KB
+# entries: 1088
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25208326
+# Writes: 8435856
+# Misses: 4
+# Replacements: 0
+# DPW: 0
+# DPR: 4
+Sort success: yes 
+Took 34.869040 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2732
+# Replacements: 2715
+# DPW: 1276
+# DPR: 1456
+Sort success: yes 
+Took 32.452873 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 2879
+# Replacements: 2857
+# DPW: 1340
+# DPR: 1539
+Sort success: yes 
+Took 32.498491 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 3204
+# Replacements: 3183
+# DPW: 1492
+# DPR: 1712
+Sort success: yes 
+Took 31.673508 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 768
+# Replacements: 768
+# DPW: 0
+# DPR: 768
+
+**********************TEST 6***************************
+==============================
+Frame size: 2.00KB
+# entries: 544
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25287228
+# Writes: 8519220
+# Misses: 2
+# Replacements: 0
+# DPW: 0
+# DPR: 2
+Sort success: yes 
+Took 35.572240 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1256
+# Replacements: 1246
+# DPW: 574
+# DPR: 682
+Sort success: yes 
+Took 32.848955 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1420
+# Replacements: 1409
+# DPW: 668
+# DPR: 752
+Sort success: yes 
+Took 31.829196 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 1571
+# Replacements: 1562
+# DPW: 728
+# DPR: 843
+Sort success: yes 
+Took 33.219268 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 384
+# Replacements: 384
+# DPW: 0
+# DPR: 384
+
+**********************TEST 7***************************
+==============================
+Frame size: 4.00KB
+# entries: 272
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25161034
+# Writes: 8389720
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 35.092503 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 657
+# Replacements: 653
+# DPW: 298
+# DPR: 359
+Sort success: yes 
+Took 32.834682 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 600
+# Replacements: 595
+# DPW: 268
+# DPR: 332
+Sort success: yes 
+Took 32.347256 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 633
+# Replacements: 627
+# DPW: 296
+# DPR: 337
+Sort success: yes 
+Took 31.924167 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 192
+# Replacements: 192
+# DPW: 0
+# DPR: 192
+
+**********************TEST 8***************************
+==============================
+Frame size: 8.00KB
+# entries: 136
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25266080
+# Writes: 8494292
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 34.833655 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 305
+# Replacements: 303
+# DPW: 138
+# DPR: 167
+Sort success: yes 
+Took 32.589119 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 287
+# Replacements: 285
+# DPW: 127
+# DPR: 160
+Sort success: yes 
+Took 30.677773 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 297
+# Replacements: 294
+# DPW: 138
+# DPR: 159
+Sort success: yes 
+Took 31.829371 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 96
+# Replacements: 96
+# DPW: 0
+# DPR: 96
+
+**********************TEST 9***************************
+==============================
+Frame size: 16.00KB
+# entries: 68
+# words: 1048576
+RAM: 64 KB
+VM : 1024 KB
+==============================
+Bubble Sort[0, 4096] // Reduced range for faster testing
+Merge Sort[262144, 524288]
+Quick Sort[524288, 786432]
+Index Sort[786432, 1048576]
+===============================
+#1 - Bubble Sort stats
+# Reads: 25344248
+# Writes: 8576384
+# Misses: 1
+# Replacements: 0
+# DPW: 0
+# DPR: 1
+Sort success: yes 
+Took 34.683869 seconds to execute 
+===============================
+#2 - Quick Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 32.192808 seconds to execute 
+===============================
+#3 - Merge Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 31.975836 seconds to execute 
+===============================
+#4 - Index Sort stats
+# Reads: 4718592
+# Writes: 4718592
+# Misses: 144
+# Replacements: 143
+# DPW: 64
+# DPR: 80
+Sort success: yes 
+Took 31.735235 seconds to execute 
+===============================
+#0 - Check stats
+# Reads: 1581048
+# Writes: 0
+# Misses: 48
+# Replacements: 48
+# DPW: 0
+# DPR: 48
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
